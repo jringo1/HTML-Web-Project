@@ -1,0 +1,109 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: grey;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+#img-rounded {
+    border: 2px lightblue;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 100px;
+} 
+
+#basketball th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #EDF61D;
+    color: black;
+}
+
+#basketball td {
+    text-align: center;
+}
+
+#basketball tr:hover {
+    background-color: #ddd;
+}
+
+#basketball td, #basketball th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 30px;
+    left: 280px;
+}
+
+.navbar {
+    overflow: hidden;
+    background: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.home {
+    margin-top: 100px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: brown;
+    text-align: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p:hover {
+    color: greenyellow;
+}
